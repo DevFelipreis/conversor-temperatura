@@ -1,0 +1,101 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #e0e0e0;
+}
+
+.degrade {
+	background-image: linear-gradient(45deg, #0f0125, #4101d6);
+	color: white;
+	font-family: 'Lora', serif;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+	width: 400px;
+	margin: 20px auto;
+	background-color: #6200ff;
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-label {
+	display: block;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.custom-input {
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+#result {
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #548856;
+	color: #fff;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #6200ff;
+}
+
+.footer-container {
+	background-color: #000000;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: auto;
+}
+
+a:visited {
+	color: darkgrey;
+}
+
+.outer-container {
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+	background: #531cec;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.social-icons a {
+	color: rgb(199, 179, 179);
+	font-size: 20px;
+}
+
+.social-icons a:hover {
+	color: #00ff00;
+
+}
